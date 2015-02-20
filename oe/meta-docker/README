@@ -1,0 +1,32 @@
+meta-docker
+===========
+
+This layer provides support for building packages to install into docker images.
+
+Dependencies
+------------
+
+This layer depends on:
+
+URI: git://github.com/openembedded/oe-core.git
+branch: master
+revision: HEAD
+prio: default
+
+
+Maintenance
+-----------
+
+Send pull requests, patches, comments or questions to Angus Lees <gus@inodes.org>
+
+When sending single patches, please use something like:
+'git send-email -1 --to gus@inodes.org --subject-prefix=meta-docker'
+
+Maintainers: Angus Lees <gus@inodes.org>
+
+License
+-------
+
+All metadata is MIT licensed unless otherwise stated.  Source code included
+in tree for individual recipies is under the LICENSE stated in each recipe
+(.bb file) unless otherwise stated.

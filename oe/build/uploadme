@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+cd /tmp/oe-build-glibc/deploy
+
+# swift delete opkg
+
+swift --snet upload --use-slo --changed opkg images ipk
