@@ -60,9 +60,10 @@ death of the universe.*
 ```ShellSession
 git clone https://github.com/anguslees/boxfactory.git
 cd boxfactory
-git submodule init
-cd oe/build
-source oe-build-env
+git submodule update --init
+git clone git://git.openembedded.org/bitbake oe/oe-core/bitbake
+cd oe
+source oe-core/oe-init-build-env
 ```
 
 At this point you can run `bitbake docker-image-minimal` to build the
