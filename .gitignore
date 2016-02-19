@@ -1,0 +1,10 @@
+/oe/build/bitbake.lock
+/oe/build/cache
+/oe/build/downloads
+/oe/build/sstate-cache
+*.pyc
+*.pyo
+*~
+*.swp
+*.orig
+*.rej
