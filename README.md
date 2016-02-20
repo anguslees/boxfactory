@@ -61,7 +61,7 @@ death of the universe.*
 git clone https://github.com/anguslees/boxfactory.git
 cd boxfactory
 git submodule update --init
-git clone git://git.openembedded.org/bitbake oe/oe-core/bitbake
+git clone -b 1.28 git://git.openembedded.org/bitbake oe/oe-core/bitbake
 cd oe
 source oe-core/oe-init-build-env
 ```
