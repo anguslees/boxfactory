@@ -2,6 +2,9 @@
 /oe/build/cache
 /oe/build/downloads
 /oe/build/sstate-cache
+/oe/build/conf/sanity_info
+/oe/build/conf/templateconf.cfg
+/oe/build/conf/site.conf
 *.pyc
 *.pyo
 *~
