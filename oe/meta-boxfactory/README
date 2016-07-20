@@ -1,5 +1,5 @@
-meta-docker
-===========
+meta-boxfactory
+===============
 
 This layer provides support for building packages to install into docker images.
 
@@ -20,7 +20,7 @@ Maintenance
 Send pull requests, patches, comments or questions to Angus Lees <gus@inodes.org>
 
 When sending single patches, please use something like:
-'git send-email -1 --to gus@inodes.org --subject-prefix=meta-docker'
+'git send-email -1 --to gus@inodes.org --subject-prefix=meta-boxfactory'
 
 Maintainers: Angus Lees <gus@inodes.org>
 
